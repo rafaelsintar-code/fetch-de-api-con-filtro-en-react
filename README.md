@@ -1,3 +1,10 @@
+App.js con tiene el codigo de una aplicacion web en React que se encarga de hacerle un fetch(get) a una api  get_articulos
+para luego poder filtrar estos segun descripcion
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
