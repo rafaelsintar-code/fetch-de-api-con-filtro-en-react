@@ -7,7 +7,7 @@ function App() {
   const [busqueda, setBusqueda]   = useState("");
 
   useEffect(() => {                                
-    fetch("http://localhost/cp1/get_articulos.php")
+    fetch("http://localhost/cp1/get_articulos.php") // Aqui va la direccion donde pongas get_articulos.php
       .then(r => r.json())
       .then(data => setArticulos(data));
   }, []);
